@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+   <style>
+    *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+    }
+    .container{
+        background-color: aqua;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 80%;
+        width: 70%;
+        margin-left: 20%;
+    }
+     .item{
+        height: 300px;
+        width: 300px;
+        background-color: rgba(200, 108,19,0.581);
+          margin: 10px; 
+         overflow: hidden;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+         padding: 5px; 
+    } 
+    img{
+        height: 100%;
+        width:100%;
+       
+    }
+    .item:hover img{
+        transform: scale(1.5);
+        transition: all 3s;
+    }
+    .title{
+        color: blue;
+        text-shadow: 1px 2px 5px red;
+        transition: all 3s;
+        /* padding: 50px; */
+    }
+    .title:hover{
+        color: red;
+        font-size: 50px;
+
+        
+    }
+   </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <img src="https://www.tailorbrands.com/wp-content/uploads/2020/07/mcdonalds-logo.jpg" alt="kj">
+        </div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item">
+            <h1 class="title">flex design</h1>
+        </div>
+    </div>
+</body>
+</html>

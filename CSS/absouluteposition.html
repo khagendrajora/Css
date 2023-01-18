@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>absolute position</title>
+    <style>
+        .container{
+            height: 400px;
+            width: 500px;
+            margin: auto;
+            position: absolute;
+        }
+        .container img{
+            height: 100%;
+            width: 100%;
+        }
+        button{
+            border: none;
+            background-color: blue;
+             color: aliceblue;
+             font-size: 50px;
+             position: absolute;
+             top: 10%;
+        }
+        .left{
+            left: 1px;
+        }
+        .right{
+            right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="abc.JPG" alt="">
+        <button class="left">&lt;</button>
+        <button class="right">&lt;</button>
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+</body>
+</html>

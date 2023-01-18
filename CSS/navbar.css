@@ -1,0 +1,32 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+     justify-content:space-between;
+    /* text-align: center; */
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+     list-style-type: none;
+} 
+nav ul li a{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    padding: 20px;
+    /* display: inline-block; */
+    transform: scale(1.5);
+}
+nav ul li a:hover{
+font-size: 25px;
+color: black;
+transition: all 2s;
+
+}

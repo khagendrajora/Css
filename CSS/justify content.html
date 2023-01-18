@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>justify content</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: red;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
+        }
+        .item{
+            height: 200px;
+            width: 200px;
+            background-color: tomato;
+            margin: 5px 0;
+            /* transform: skewX(10deg);
+            transform: skewY(-10deg); */
+            transform: skew(10deg,10deg);
+
+        }
+        .item h1{
+           padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item">
+            <h1>khagendra</h1>
+        </div>
+    </div>
+    
+</body>
+</html>

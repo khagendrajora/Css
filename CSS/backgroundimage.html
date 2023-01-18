@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background image</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 700px;
+            background-image: url('images/123.JPG');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+             /* background-image: linear-gradient(red,green,blue);  */
+        }
+        .demo-container{
+            height: 500px;
+            width: 800px;
+            background-image: linear-gradient(rgba(110,80,50,0),rgba(170,220,15,0.5)),url('images/123.JPG');
+            background-size: cover;
+             /* background-image: linear-gradient(to top left,red,green,blue);  */
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+    <div class="demo-container"></div>
+    
+</body>
+</html>

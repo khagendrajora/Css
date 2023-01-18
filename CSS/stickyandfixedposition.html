@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sticky and fixed position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+
+            text-align: center;
+            color: antiquewhite;
+            background-color: #cd09d8;
+            font-size:30px;
+            text-transform: capitalize;
+            padding: 15px;
+             width: 100%;
+             position:fixed;
+            top: 0;
+        }
+        nav{
+            text-align: center;
+            color: antiquewhite;
+            background-color: #310c33;
+            font-size: 15px;
+            padding: 15px;
+            text-transform: capitalize;
+            position: sticky;
+            top: 50px;
+        }
+        main{
+            height: 2000px;
+            background-color:antiquewhite;
+        }
+        footer{
+            text-align: center;
+            color: aquamarine;
+            font-size: 10px;
+            font-weight:200;
+            background-color: black;
+            padding: 10px;   
+        }
+    </style>
+</head>
+<body>
+    <header>
+        this is header
+    </header>
+    <nav>
+        this is a nav component
+    </nav>
+    <main></main>
+    <footer>
+        &copy;copyright 2022 powered by dursikshya
+    </footer>
+</body>
+</html>

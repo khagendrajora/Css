@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA screen</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: blueviolet;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+        }
+        .container .demo-item{
+            width: 24%;
+            height: 250px;
+            background-color: blue;
+            margin: 10px 0;
+        }
+        @media screen and (max-width: 990px){
+            .container{
+                background-color: aquamarine;
+            }
+            .container .demo-item{
+                width: 49%;
+            }
+        }
+            @media screen and (max-width:560px) {
+                .container{
+                    background-color: bisque;
+                }
+                .container .demo-item{
+                    width: 99%;
+                }
+                
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="demo-item"></div>
+        <div class="demo-item"></div>
+        <div class="demo-item"></div>
+        <div class="demo-item"></div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>border radius</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .demo{
+            height: 200px;
+            width: 300px;
+            background-color: royalblue;
+            margin: 10px auto;
+            border-radius: 50px;
+            box-shadow: 10px 20px 10px black, -10px -20px 15px black 
+        
+        }
+        .container{
+            height: 150px;
+            width: 150px;
+            background-color:orangered;
+            margin: 20px auto;
+            border-radius: 50%;
+            box-shadow: 10px 10px rgb(0,0,0,0.2), -10px -10px blue;
+        }
+        .circle{
+            height: 150px;
+            width: 150px;
+            background-color:orangered;
+            margin: 20px auto;
+           border-top-left-radius: 30px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="demo"></div>
+    <div class="container"></div>
+    <div class="circle"></div>
+</body>
+</html>
